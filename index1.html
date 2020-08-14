@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #navbar {
+            display: flex;
+            align-items: center;
+            position: relative;
+
+        }
+
+        #navbar ul {
+            display: flex;
+        }
+
+        #navbar ul li {
+            list-style: none;
+            font-size: 25px;
+        }
+
+        #navbar ul li a {
+            padding: 2px 2px;
+            margin: 2px 8px;
+            text-decoration: none;
+            color: white;
+            font-family: cursive;
+        }
+
+        #navbar ul li a:hover {
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+        }
+
+        #navbar img {
+            margin: 2px 2px;
+            padding: 2px 2px;
+        }
+
+        #navbar::before {
+            content: "";
+            background: black;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+
+        }
+
+        #logo img {
+            height: 68px;
+            margin: 0px 9px;
+        }
+
+        #sanskar::before {
+            content: "";
+            background-image: url(index1pic.jpg);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+        
+        
+
+        #sanskar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+     .box{
+            font-family: cursive;
+            color: black;
+            font-size: 18px;
+            margin: 13px 188px;
+            
+
+        }
+
+        #sanskar .photo {
+            height: 113px;
+            width: 188px;
+        }
+        @media screen and (max-width: 1170px) {
+            #navbar{
+                flex-direction: column;
+            }
+            .hprimary1{
+                margin: 10px 10px;
+            }
+            .box{
+                margin: -28px 5px;
+                font-weight: 100px;
+                color: white;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <section id="navbar">
+        <div id="logo">
+            <img src="ap.jpg" alt="wait for minute">
+        </div>
+        <ul>
+            <li class="item"> <a href="index.html">Home</a> </li>
+            <li class="item"><a href="index1.html">Our Service</a></li>
+            <li class="item"><a href="https://www.facebook.com/arham.umar.94" target="_blank">About Us</a></li>
+            <li class="item"><a href="https://www.gmail.com" target="_blank">Contact US</a></li>
+        </ul>
+    </section>
+    <section id="sanskar">
+        <h1 class="hprimary">HELLO GUYS WE PROVIDE ALL TYPE OF SERVICE</h1>
+        <img src="hhh.JPG" alt="" class="photo">
+        <div class="box">
+            <img src="" alt="">
+            <h4 class="hprimary1">FROM THE DEVELOPER</h4>
+           <strong> <p>Hello my name is ARHAM UMAR nd warm  welcomes you today with open arms to be a part of our strong team! We hope we can together help the company grow bigger and wider </p>
+            <p>You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity and more over Every programmer is an author</p></strong>
+
+        </div>
+    </section>
+</body>
+
+</html>
